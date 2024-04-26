@@ -1,6 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-console.log( "A" - "B" + 2);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const allResults = await Promise.all(items.map(async (item) => {}));
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const merge = (a, b) => a.concat(b);
+const maxNumber = arr => Math.max(...arr);
+var arr2 = arr1.reverse();
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
