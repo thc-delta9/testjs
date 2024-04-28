@@ -1,2 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-console.log( "A" - "B" + 2);
+const removeDuplicates = (arr) => [...new Set(arr)];
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
