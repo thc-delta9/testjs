@@ -1,2 +1,3 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const stringReverse = str => str.split("").reverse().join("");
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const reversedString = str => str.split('').reverse().join('');
