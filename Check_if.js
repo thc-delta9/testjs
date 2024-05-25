@@ -1,3 +1,3 @@
-console.log("1 && 2 = "+(1 && 2));
-var DELIM_SIZE = 4;
+[foo, bar] = [bar, foo];
+console.log("1 || 2 = "+(1 || 2));
 const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
