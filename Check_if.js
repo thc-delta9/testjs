@@ -1,3 +1,3 @@
-[foo, bar] = [bar, foo];
-console.log("1 || 2 = "+(1 || 2));
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+var arr3 = "jones".split('');
+console.log("0 || 1 = "+(0 || 1));
+const merge = (a, b) => a.concat(b);
