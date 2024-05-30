@@ -1,2 +1,1 @@
-const toggleBool = () => (bool = !bool);
-const isTabInView = () => !document.hidden;
+var arr3 = "jones".split('');
