@@ -1,1 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const isArray = (arr) => Array.isArray(arr);
