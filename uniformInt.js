@@ -1,3 +1,2 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const results = await Promise.all(resultingPromises);
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
