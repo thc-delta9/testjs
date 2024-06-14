@@ -1,2 +1,3 @@
-console.log("1 && 2 = "+(1 && 2));
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const intermediateAppPath = path.join(buildOutputPath, 'app');
