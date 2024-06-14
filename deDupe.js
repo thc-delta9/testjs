@@ -1,3 +1,2 @@
-const channelName = getChannelName(channel);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const minNumber = arr => Math.min(...arr);
+console.log("1 && 2 = "+(1 && 2));
+const timeFromDate = date => date.toTimeString().slice(0, 8);
