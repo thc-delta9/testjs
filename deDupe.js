@@ -1,3 +1,2 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const goToTop = () => window.scrollTo(0, 0);
