@@ -1,2 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const goToTop = () => window.scrollTo(0, 0);
+const isEmptyArray = arr => !arr.length;
+const randomString = () => Math.random().toString(36).slice(2);
