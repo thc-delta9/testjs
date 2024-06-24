@@ -1,3 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const removeDuplicates = (arr) => [...new Set(arr)];
-const isEmptyArray = arr => !arr.length;
+var arr2 = arr1.reverse();
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const timeFromDate = date => date.toTimeString().slice(0, 8);
