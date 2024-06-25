@@ -1,3 +1,2 @@
-console.log(+"1" +  "1" + "2");
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const allResults = await Promise.all(items.map(async (item) => {}));
