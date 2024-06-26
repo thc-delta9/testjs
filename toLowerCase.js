@@ -1,3 +1,2 @@
-var arr2 = arr1.reverse();
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
