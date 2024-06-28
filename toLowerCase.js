@@ -1,2 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const flattenedArray = arr => [].concat(...arr);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
