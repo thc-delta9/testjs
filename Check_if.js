@@ -1,2 +1,1 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const executableName = getExecutableName(channel, appName);
+const randomBoolean = () => Math.random() >= 0.5;
