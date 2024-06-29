@@ -1,2 +1,2 @@
-const flattenedArray = arr => [].concat(...arr);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+console.log(1 +  -"1" + "2");
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
