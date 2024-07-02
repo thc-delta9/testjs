@@ -1,3 +1,2 @@
-var DELIM_SIZE = 4;
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log("0 && 1 = "+(0 && 1));
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
