@@ -1,3 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const result = await makeHttpRequest(url);
-const merge = (a, b) => [...a, ...b];
+const channel = getChannel(computedAppVersion);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const merge = [...new Set(a.concat(b))];
