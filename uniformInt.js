@@ -1,3 +1,2 @@
-const channel = getChannel(computedAppVersion);
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const merge = [...new Set(a.concat(b))];
+const randomBoolean = () => Math.random() >= 0.5;
+const isEmptyObject = obj => Object.keys(obj).length === 0;
