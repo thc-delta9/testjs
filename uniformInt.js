@@ -1,2 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const goToTop = () => window.scrollTo(0, 0);
