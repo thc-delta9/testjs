@@ -1,2 +1,3 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+console.log("1 || 2 = "+(1 || 2));
+const resultingPromises = urls.map((url) => makHttpRequest(url));
