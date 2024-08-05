@@ -1,2 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-console.log( "A" - "B" + 2);
+const arrayContains = (arr, element) => arr.includes(element);
+console.log(1 +  -"1" + "2");
