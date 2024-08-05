@@ -1,2 +1,3 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-var pattern = {};
+const isEmptyArray = arr => !arr.length;
+var DELIM_SIZE = 4;
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
