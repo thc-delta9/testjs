@@ -1,3 +1,2 @@
-console.log(+"1" +  "1" + "2");
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-console.log(false === '0');
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+function myAPITS(someString: string, someNum: number) { ... };
